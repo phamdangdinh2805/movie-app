@@ -1,0 +1,54 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.623);
+  z-index: 1000;
+  justify-content: center;
+  max-width: 100vw;
+}
+
+.trailer-container::-webkit-scrollbar {
+  display: none;
+}
+
+.trailer-container {
+  max-width: 100%;
+  background-color: #212627;
+  overflow-y: auto;
+  width: 650px;
+  padding: 0 20px;
+  animation: topToDown .6s ease-in;
+}
+@keyframes topToDown {
+  from{
+    opacity: 0;
+    transform: translateY(-200px);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.trailer-title {
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+  margin: 10px auto;
+  position: relative;
+}
+
+.trailer-name {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  margin: 20px 0 5px;
+}
+
+.trailer-title-close {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
