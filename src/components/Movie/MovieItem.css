@@ -1,0 +1,32 @@
+.movie-item {
+    margin: 20px 10px  20px 10px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  .movie-item img {
+    width: 100%;
+    border-radius: 20px;
+  }
+  
+  .movie-item:hover {
+    transform: scale(1.1);
+    transition: all 0.7s;
+  }
+  
+  .movie-item-title {
+    font-size: 16px;
+    color: #fff;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-weight: bold;
+  
+  }
+  .star{
+    margin: 0 10px;
+    color: #f5ed08;
+  }
+  .star span{
+    margin-left: 5px
+  }
+  
